@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Base</title>
+</head>
+<body>
+    ><header>>
+        <a href="{% url 'html' %}">Menu</a>
+        <a href="{% url 'favorite' %}">Favorite Fruits</a>
+        <a href="{% url 'fruits' %}">Fruits</a>
+    </header>
+
+    {% block content %}
+    {% endblock content %}
+</body>
+</html>
